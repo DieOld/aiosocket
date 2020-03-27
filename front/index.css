@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+.header {
+    color: #04ff36;
+    text-align: center;
+    background-color: #000;
+    height: 5vh;
+}
+
+.header-text {
+    float:left;
+}
+
+.side-bar {
+    color: white;
+    width: 15vw;
+    background: green;
+    height: 95vh;
+}
+
+
+h1 > span {
+    font-family: sans-serif;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-body {
+    background-color: #212020;
+    background-image: url('aliens.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+.form {
+    width: 100%
+}
+
+.login-form {
+    margin-top: 40vh;
+    color: white;
+    width: 193px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.login-form input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.login-form button {
+    position: relative;
+    left: 38%;
+    outline: none;
+    background-color: #04ff36;
+    border: none;
+}
+
+.login-form button:active {
+    position: relative;
+    left: 38%;
+    outline: none;
+    background-color: #01aa26;
+}
+
+.answer {
+    color: white;
+    width: 100%;
+    padding-left: 40px;
+}
+.message {
+    margin: 20px 0px; 
+}
+.answer:empty {
+    display: none;
+}
+
+.message-form input{
+    width: 75vw;
+    height: 20px;
+    margin: 5px 10px;
+}
+
+.message-form button{
+    width: 20vw;
+    height: 25px;
+    margin-top: 5px;
+    background-color: #04ff36;
+}
